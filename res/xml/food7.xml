@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="15%p"
+    android:verticalGap="1%p"
+    android:horizontalGap="1%p">
+    
+    
+     <Row>
+        <Key android:codes="940040"  android:keyWidth="2%p"    android:keyIcon="@drawable/left_previous"         android:keyEdgeFlags="left" />   
+        <Key android:codes="61660"   android:keyWidth="28%p"   android:keyIcon="@drawable/food_fasolya_abid" android:iconPreview="@drawable/food_fasolya_abid_p"  />
+        <Key android:codes="61661"   android:keyWidth="28%p"   android:keyIcon="@drawable/food_foool" android:iconPreview="@drawable/food_foool_p" />
+        <Key android:codes="61662"   android:keyWidth="28%p"   android:keyIcon="@drawable/food_cantaloob" android:iconPreview="@drawable/food_cantaloob_p" />
+        <Key android:codes="920040"  android:keyWidth="2%p"   android:keyIcon="@drawable/right_next"            android:keyEdgeFlags="right"  /> 
+   </Row>
+   <Row>
+        <Key android:codes="940040"  android:keyWidth="2%p"    android:keyIcon="@drawable/left_previous"         android:keyEdgeFlags="left" />   
+        <Key android:codes="61663"   android:keyWidth="28%p"  android:keyIcon="@drawable/food_leb_abyad" android:iconPreview="@drawable/food_leb_abyad_p"  />
+        <Key android:codes="61664"   android:keyWidth="28%p"  android:keyIcon="@drawable/food_milk" android:iconPreview="@drawable/food_milk_p" />
+        <Key android:codes="61665"    android:keyWidth="28%p" android:keyIcon="@drawable/food_lobya" android:iconPreview="@drawable/food_lobya_p" />
+        <Key android:codes="920040"  android:keyWidth="2%p"   android:keyIcon="@drawable/right_next"            android:keyEdgeFlags="right"  /> 
+   </Row>
+   
+   <Row>
+        <Key android:codes="940040"  android:keyWidth="2%p"    android:keyIcon="@drawable/left_previous"         android:keyEdgeFlags="left" />   
+        <Key android:codes="61666"   android:keyWidth="28%p"   android:keyIcon="@drawable/food_mango" android:iconPreview="@drawable/food_mango_p"  />
+        <Key android:codes="61667"   android:keyWidth="28%p"   android:keyIcon="@drawable/food_makroona" android:iconPreview="@drawable/food_makroona_p" />
+        <Key android:codes="61668"   android:keyWidth="28%p"   android:keyIcon="@drawable/food_salt" android:iconPreview="@drawable/food_salt_p" />
+        <Key android:codes="920040"  android:keyWidth="2%p"   android:keyIcon="@drawable/right_next"            android:keyEdgeFlags="right"  /> 
+   </Row>
+   
+ 
+    
+    
+    
+    </Keyboard>

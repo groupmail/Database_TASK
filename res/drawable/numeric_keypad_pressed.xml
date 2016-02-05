@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/keycat"/>
+            <gradient
+            android:endColor="@color/keycat"
+            android:startColor="@color/keyboard"/>
+        </shape>
+        
+    </item>
+</layer-list>

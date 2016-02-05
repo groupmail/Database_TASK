@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="15%p"
+    android:verticalGap="1%p"
+    android:horizontalGap="1%p">
+    
+    
+    <Row> 
+        <Key android:codes="940041" android:keyWidth="2%p"   android:keyIcon="@drawable/left_previous"         android:keyEdgeFlags="left" />   
+        <Key android:codes="61669"   android:keyWidth="28%p"   android:keyIcon="@drawable/food_botatoo" android:iconPreview="@drawable/food_batata_p"  />
+        <Key android:codes="61670"   android:keyWidth="28%p"   android:keyIcon="@drawable/food_pepsi" android:iconPreview="@drawable/food_pepsi_p" />
+        <Key android:codes="61671"   android:keyWidth="28%p"   android:keyIcon="@drawable/food_gawafa" android:iconPreview="@drawable/food_gawafa_p" />
+       <Key android:codes="920041"  android:keyWidth="2%p"   android:keyIcon="@drawable/right_next"            android:keyEdgeFlags="right"  /> 
+   </Row>
+   
+   <Row>
+        <Key android:codes="940041" android:keyWidth="2%p"   android:keyIcon="@drawable/left_previous"         android:keyEdgeFlags="left" />   
+        <Key android:codes="61672"  android:keyWidth="28%p"  android:keyIcon="@drawable/food_gooz_hend" android:iconPreview="@drawable/food_gooz_hend_p" />
+        <Key android:codes="61673"  android:keyWidth="28%p"  android:keyIcon="@drawable/food_hoomos_elsham" android:iconPreview="@drawable/food_hoomos_elsham_p" />
+        <Key android:codes="61674"  android:keyWidth="28%p"  android:keyIcon="@drawable/food_kharashoof" android:iconPreview="@drawable/food_kharashoof_p" />
+        <Key android:codes="920041"  android:keyWidth="2%p"   android:keyIcon="@drawable/right_next"            android:keyEdgeFlags="right"  /> 
+   </Row>
+   
+   <Row> 
+        <Key android:codes="940041" android:keyWidth="2%p"   android:keyIcon="@drawable/left_previous"         android:keyEdgeFlags="left" />   
+        <Key android:codes="61675"   android:keyWidth="28%p"   android:keyIcon="@drawable/food_khass" android:iconPreview="@drawable/food_khass_p"  />
+        <Key android:codes="61676"   android:keyWidth="28%p"   android:keyIcon="@drawable/food_sabankh" android:iconPreview="@drawable/food_sabankh_p" />
+        <Key android:codes="61677"   android:keyWidth="28%p"   android:keyIcon="@drawable/food_stellla" android:iconPreview="@drawable/food_stellla_p" />
+        <Key android:codes="920041"  android:keyWidth="2%p"   android:keyIcon="@drawable/right_next"            android:keyEdgeFlags="right"  /> 
+   </Row>
+   
+   
+    
+    
+    
+    </Keyboard>

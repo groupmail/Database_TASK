@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="15%p"
+    android:verticalGap="1%p"
+    android:horizontalGap="1%p">
+    
+    
+      <Row>
+        <Key android:codes="940058"  android:keyWidth="2%p"   android:keyIcon="@drawable/left_previous"         android:keyEdgeFlags="left" />  
+        <Key android:codes="61944"   android:keyWidth="28%p"   android:keyIcon="@drawable/home_kabreet" android:iconPreview="@drawable/home_kabreet_p" android:keyEdgeFlags="left" />
+        <Key android:codes="61945"   android:keyWidth="28%p"   android:keyIcon="@drawable/home_book" android:iconPreview="@drawable/home_book_p" />
+        <Key android:codes="61946"   android:keyWidth="28%p"   android:keyIcon="@drawable/home_cup" android:iconPreview="@drawable/home_cup_p" />
+       <Key android:codes="920058"  android:keyWidth="2%p"   android:keyIcon="@drawable/right_next"            android:keyEdgeFlags="right"  /> 
+    </Row>
+    <Row>
+        <Key android:codes="940058"  android:keyWidth="2%p"   android:keyIcon="@drawable/left_previous"         android:keyEdgeFlags="left" />  
+        <Key android:codes="61947"   android:keyWidth="28%p"   android:keyIcon="@drawable/home_spone"   android:iconPreview="@drawable/home_maalaqa_p" />
+        <Key android:codes="61948"   android:keyWidth="28%p"   android:keyIcon="@drawable/home_makwa"   android:iconPreview="@drawable/home_mekwah_p" />
+        <Key android:codes="61949"   android:keyWidth="28%p"   android:keyIcon="@drawable/home_nazarah" android:iconPreview="@drawable/home_nazara_p" />
+        <Key android:codes="920058"  android:keyWidth="2%p"   android:keyIcon="@drawable/right_next"            android:keyEdgeFlags="right"  /> 
+    </Row>	        
+    
+    
+    
+    </Keyboard>

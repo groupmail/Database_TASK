@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="15%p"
+    android:verticalGap="1%p"
+    android:horizontalGap="1%p">
+    
+    
+     <Row>
+        <Key android:codes="940060"  android:keyWidth="2%p"   android:keyIcon="@drawable/left_previous"         android:keyEdgeFlags="left" />  
+        <Key android:codes="61960"   android:keyWidth="28%p"   android:keyIcon="@drawable/general_eldafaya" android:iconPreview="@drawable/general_eldafaya_p"  />
+        <Key android:codes="61961"   android:keyWidth="28%p"   android:keyIcon="@drawable/general_elkol" android:iconPreview="@drawable/general_elkol_p" />
+        <Key android:codes="61962"   android:keyWidth="28%p"   android:keyIcon="@drawable/general_alam" android:iconPreview="@drawable/general_alam_p" />
+        <Key android:codes="920060"  android:keyWidth="2%p"   android:keyIcon="@drawable/right_next"            android:keyEdgeFlags="right"  /> 
+    </Row>
+    <Row>
+         <Key android:codes="940060"  android:keyWidth="2%p"   android:keyIcon="@drawable/left_previous"         android:keyEdgeFlags="left" />  
+        <Key android:codes="61963"    android:keyWidth="28%p"  android:keyIcon="@drawable/general_almas" android:iconPreview="@drawable/general_almas_p"  />
+        <Key android:codes="61964"    android:keyWidth="28%p"  android:keyIcon="@drawable/general_amr" android:iconPreview="@drawable/general_amr_p" />
+        <Key android:codes="61965"    android:keyWidth="28%p"  android:keyIcon="@drawable/general_onzor" android:iconPreview="@drawable/general_onzor_p" />
+         <Key android:codes="920060"  android:keyWidth="2%p"   android:keyIcon="@drawable/right_next"            android:keyEdgeFlags="right"  /> 
+    </Row>
+    <Row>
+        <Key android:codes="940060"  android:keyWidth="2%p"   android:keyIcon="@drawable/left_previous"         android:keyEdgeFlags="left" />  
+        <Key android:codes="61966"   android:keyWidth="28%p"   android:keyIcon="@drawable/general_aw" android:iconPreview="@drawable/general_aw_p"  />
+        <Key android:codes="61967"   android:keyWidth="28%p"   android:keyIcon="@drawable/general_ayohoma" android:iconPreview="@drawable/general_ayohoma_p" />
+        <Key android:codes="61968"   android:keyWidth="28%p"   android:keyIcon="@drawable/general_bab" android:iconPreview="@drawable/general_bab_p" />
+        <Key android:codes="920060"  android:keyWidth="2%p"   android:keyIcon="@drawable/right_next"            android:keyEdgeFlags="right"  /> 
+    </Row>
+    
+    
+    </Keyboard>

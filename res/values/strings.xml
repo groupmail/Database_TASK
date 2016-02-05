@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ASL</string>
+    <string name="title_activity_list">List</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Final">Final</string>
+    <string name="New">New</string>
+
+    <string-array name="categories_list">
+        <item>category1</item>
+        <item>category2</item>
+        <item>category3</item>
+        <item>category4</item>
+        <item>category5</item>
+        <item>category6</item>
+        <item>category7</item>
+        <item>category8</item>
+        <item>category9</item>
+        <item>category10</item>
+        <item>category11</item>
+        <item>category12</item>
+        <item>category13</item>
+        <item>category14</item>
+        <item>category15</item>
+        <item>category16</item>
+        <item>category17</item>
+        <item>category18</item>
+        <item>category19</item>
+        <item>category20</item>
+        <item>category21</item>
+        <item>category22</item>
+        <item>category23</item>
+        <item>category24</item>
+        <item>category25</item>
+    </string-array>
+
+    <string name="title_activity_activity_setting">ActivitySetting</string>
+
+</resources>

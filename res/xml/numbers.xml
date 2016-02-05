@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="30%p"
+    android:keyHeight="10%p"
+    android:verticalGap="1%p"
+    android:horizontalGap="5%p">
+    <Row>
+        <Key android:codes="61441"     android:keyIcon="@drawable/num_one"     android:iconPreview="@drawable/num_one_p"   />
+        <Key android:codes="61442"     android:keyIcon="@drawable/num_two"     android:iconPreview="@drawable/num_two_p" />
+        <Key android:codes="61443"     android:keyIcon="@drawable/num_three"   android:iconPreview="@drawable/num_three_p" />
+    </Row>
+    <Row>
+        <Key android:codes="61444"     android:keyIcon="@drawable/num_four"    android:iconPreview="@drawable/num_four_p"  />
+        <Key android:codes="61445"     android:keyIcon="@drawable/num_five"    android:iconPreview="@drawable/num_five_p" />
+        <Key android:codes="61446"     android:keyIcon="@drawable/num_six"     android:iconPreview="@drawable/num_six_p" />
+    </Row>
+    <Row>
+        <Key android:codes="61447"     android:keyIcon="@drawable/num_seven"   android:iconPreview="@drawable/num_seven_p"   />
+        <Key android:codes="61448"     android:keyIcon="@drawable/num_eight"   android:iconPreview="@drawable/num_eight_p" />
+        <Key android:codes="61449"     android:keyIcon="@drawable/num_nine"    android:iconPreview="@drawable/num_nine_p"   />
+    </Row>
+    <Row>
+        <Key android:codes="61440"  android:keyWidth="100%p" android:keyIcon="@drawable/num_zero"  android:iconPreview="@drawable/num_zero_p"  android:gravity="center"  />
+    </Row>
+</Keyboard>

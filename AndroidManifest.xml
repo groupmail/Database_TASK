@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nl.fampennings.keyboard"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- <uses-permission android:name="android.permission.INTERNET" /> -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!-- For Integration -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lancher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.NoActionBar" >
+        <activity
+            android:name="fci.arabicsignlangtoarabicspeech.scu.LoginPhoto"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="fci.arabicsignlangtoarabicspeech.scu.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="nl.fampennings.keyboard.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="fci.arabicsignlangtoarabicspeech.scu.VideoViewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- i change the value of the developerdemokeydeveloperdemokey to my key -->
+        <!-- i change the value of the debug from false to true -->
+        <!-- key1 = aa52951338b7518872b1817f376fc3d1 production -->
+        <!-- key2 = b958abb2ae579f061a75812689676751 development -->
+        <meta-data
+            android:name="ispeech_api_key"
+            android:value="aa52951338b7518872b1817f376fc3d1" />
+        <meta-data
+            android:name="debug"
+            android:value="false" />
+
+        <activity
+            android:name="fci.arabicsignlangtoarabicspeech.scu.ActivitySetting"
+            android:label="@string/title_activity_activity_setting"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

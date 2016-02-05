@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="15%p"
+    android:verticalGap="1%p"
+    android:horizontalGap="1%p">
+    
+    
+   <Row>
+       <Key android:codes="940009"  android:keyWidth="2%p"  android:keyIcon="@drawable/left_previous"         android:keyEdgeFlags="left" /> 
+        <Key android:codes="61552"  android:keyWidth="28%p"   android:keyIcon="@drawable/arts_jazz"                    android:iconPreview="@drawable/arts_jazz_p" />
+        <Key android:codes="61553"  android:keyWidth="28%p"   android:keyIcon="@drawable/arts_garidit_elmasaa"         android:iconPreview="@drawable/arts_garidit_elmasaa_p" />
+        <Key android:codes="61554"  android:keyWidth="28%p"   android:keyIcon="@drawable/arts_gitar"                   android:iconPreview="@drawable/arts_gitar_p" />
+        <Key android:codes="920009"  android:keyWidth="2%p"  android:keyIcon="@drawable/right_next"            android:keyEdgeFlags="right"  /> 
+    </Row>	
+    <Row>
+        <Key android:codes="940009"  android:keyWidth="2%p"  android:keyIcon="@drawable/left_previous"         android:keyEdgeFlags="left" /> 
+        <Key android:codes="61555"   android:keyWidth="28%p"  android:keyIcon="@drawable/arts_adel_emam"               android:iconPreview="@drawable/arts_adel_emam_p"/>  
+        <Key android:codes="61556"   android:keyWidth="28%p"  android:keyIcon="@drawable/arts_ooood"                   android:iconPreview="@drawable/arts_ooood_p" />
+        <Key android:codes="61557"   android:keyWidth="28%p"  android:keyIcon="@drawable/arts_farid_shawaai"           android:iconPreview="@drawable/arts_farid_shaawi_p" />
+        <Key android:codes="920009"  android:keyWidth="2%p"  android:keyIcon="@drawable/right_next"            android:keyEdgeFlags="right"  /> 
+        
+    </Row>
+    <Row>
+        <Key android:codes="940009"  android:keyWidth="2%p"  android:keyIcon="@drawable/left_previous"         android:keyEdgeFlags="left" /> 
+        <Key android:codes="61558"  android:keyWidth="28%p"   android:keyIcon="@drawable/arts_kmaaaan"                  android:iconPreview="@drawable/arts_kmaaan_p"/>
+        <Key android:codes="61559"  android:keyWidth="28%p"   android:keyIcon="@drawable/arts_kontorbas"               android:iconPreview="@drawable/arts_kontarbas_p" />
+        <Key android:codes="61560"  android:keyWidth="28%p"   android:keyIcon="@drawable/arts_maglit_elosra"           android:iconPreview="@drawable/arts_maglet_elosrah_p" />
+        <Key android:codes="920009"  android:keyWidth="2%p"  android:keyIcon="@drawable/right_next"            android:keyEdgeFlags="right"  /> 
+    
+    </Row>  
+    
+    
+    
+ </Keyboard>

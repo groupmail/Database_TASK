@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="15%p"
+    android:verticalGap="1%p"
+    android:horizontalGap="1%p">
+    
+    
+   
+    
+     <Row>
+        <Key android:codes="940004"     android:keyWidth="2%p"                   android:keyIcon="@drawable/left_previous"          android:keyEdgeFlags="left" /> 
+        <Key android:codes="61508"      android:keyWidth="28%p"               android:keyIcon="@drawable/family_broke_up"       android:iconPreview="@drawable/family_broke_up_p"/>
+        <Key android:codes="61509"      android:keyWidth="28%p"               android:keyIcon="@drawable/family_child"          android:iconPreview="@drawable/family_child_p" />
+        <Key android:codes="61510"      android:keyWidth="28%p"               android:keyIcon="@drawable/family_children"       android:iconPreview="@drawable/family_children_p" />
+        <Key android:codes="920004"     android:keyWidth="2%p"                   android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+    </Row> 
+    
+    <Row>
+        <Key android:codes="940004"     android:keyWidth="2%p"                   android:keyIcon="@drawable/left_previous"          android:keyEdgeFlags="left" /> 
+        <Key android:codes="61511"      android:keyWidth="28%p"                  android:keyIcon="@drawable/family_guy"            android:iconPreview="@drawable/family_guy_p"  />
+        <Key android:codes="61512"      android:keyWidth="28%p"                  android:keyIcon="@drawable/family_age"            android:iconPreview="@drawable/family_age_p"  />
+        <Key android:codes="61513"      android:keyWidth="28%p"                  android:keyIcon="@drawable/family_relatives"      android:iconPreview="@drawable/family_relatives_p"  />
+        <Key android:codes="920004"     android:keyWidth="2%p"                   android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+    </Row>
+    
+    <Row>
+        <Key android:codes="940004"     android:keyWidth="2%p"                   android:keyIcon="@drawable/left_previous"          android:keyEdgeFlags="left" /> 
+        <Key android:codes="61514"       android:keyWidth="28%p"              android:keyIcon="@drawable/family_death"          android:iconPreview="@drawable/family_death_p"/>
+        <Key android:codes="61515"       android:keyWidth="28%p"              android:keyIcon="@drawable/family_grow"           android:iconPreview="@drawable/family_grow_p" />
+        <Key android:codes="61516"       android:keyWidth="28%p"              android:keyIcon="@drawable/family_orphan"         android:iconPreview="@drawable/family_orphan_p" />
+        <Key android:codes="920004"     android:keyWidth="2%p"                   android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+   </Row>
+    
+    
+    </Keyboard>
