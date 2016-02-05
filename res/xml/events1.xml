@@ -1,0 +1,29 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="15%p"
+    android:verticalGap="1%p"
+    android:horizontalGap="1%p">
+   
+    
+     <Row>
+        <Key android:codes="940017"  android:keyWidth="2%p"    android:keyIcon="@drawable/left_previous"          android:keyEdgeFlags="left" /> 
+        <Key android:codes="61737"   android:keyWidth="28%p"   android:keyIcon="@drawable/events_eid_eladhaah"             android:iconPreview="@drawable/events_eid_eladha_p" />
+        <Key android:codes="61738"   android:keyWidth="28%p"   android:keyIcon="@drawable/events_eid_elsawra"              android:iconPreview="@drawable/events_aid_elsawra_p"  />
+        <Key android:codes="61739"   android:keyWidth="28%p"   android:keyIcon="@drawable/events_eid_elgalaa"              android:iconPreview="@drawable/events_eid_elgalaa_p" />
+        <Key android:codes="920017"   android:keyWidth="2%p"    android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+   </Row>  
+    <Row>
+        <Key android:codes="940017"  android:keyWidth="2%p"    android:keyIcon="@drawable/left_previous"          android:keyEdgeFlags="left" /> 
+        <Key android:codes="61740"    android:keyWidth="28%p"   android:keyIcon="@drawable/events_eid_elsuez"               android:iconPreview="@drawable/events_eid_suez_p"  />
+        <Key android:codes="61741"    android:keyWidth="28%p"   android:keyIcon="@drawable/events_eid_elomaal"              android:iconPreview="@drawable/events_eid_omal_p" />
+        <Key android:codes="61742"    android:keyWidth="28%p"   android:keyIcon="@drawable/events_eid_elghotas"             android:iconPreview="@drawable/events_eid_ghotas_p"   />
+        <Key android:codes="920017"   android:keyWidth="2%p"    android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+    </Row>
+    <Row>
+        <Key android:codes="940017"  android:keyWidth="2%p"    android:keyIcon="@drawable/left_previous"          android:keyEdgeFlags="left" /> 
+        <Key android:codes="61743"   android:keyWidth="28%p"   android:keyIcon="@drawable/events_eid_elfetr"               android:iconPreview="@drawable/events_eid_elfetr_p" />
+        <Key android:codes="61744"   android:keyWidth="28%p"   android:keyIcon="@drawable/events_eid_elkowat_elmosalaha"   android:iconPreview="@drawable/events_eid_elqowat_p" />
+        <Key android:codes="61745"   android:keyWidth="28%p"   android:keyIcon="@drawable/events_eid_elkyamah_elmageed"    android:iconPreview="@drawable/events_eid_elqyama_p"  />
+        <Key android:codes="920017"   android:keyWidth="2%p"    android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+    </Row>   
+    
+ </Keyboard>

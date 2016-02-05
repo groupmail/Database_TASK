@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:keyHeight="10%p">
+<!--
+    android:horizontalGap="0.50%p"
+    android:verticalGap="0.50%p"
+    NOTE When we add a horizontalGap in pixels, this interferes with keyWidth in percentages adding up to 100%
+    NOTE When we have a horizontalGap (on Keyboard level) of 0, this make the horizontalGap (on Key level) to move from after the key to before the key... (I consider this a bug) 
+ -->
+    <Row>
+        <Key android:codes="22"    android:keyIcon="@drawable/zeeero"  android:keyEdgeFlags="left" android:keyWidth="20%p" android:keyHeight="10%p" />
+        <Key android:codes="01"    android:keyIcon="@drawable/onne" android:keyWidth="20%p" android:keyHeight="10%p" />
+        <Key android:codes="01"    android:keyIcon="@drawable/oooone" android:keyWidth="20%p" android:keyHeight="10%p" />
+        <Key android:codes="01"    android:keyLabel="4" android:keyWidth="20%p" android:keyHeight="10%p" />
+        <Key android:codes="18"    android:keyLabel="E" android:popupKeyboard="@xml/popup" android:popupCharacters="eE" android:keyWidth="20%p" android:keyHeight="10%p"/>
+    </Row>
+    <Row>
+        <Key android:codes="44"    android:keyLabel="1"  android:keyEdgeFlags="left" android:keyWidth="20%p" android:keyHeight="10%p" />
+        <Key android:codes="43"    android:keyIcon="@drawable/oneee" android:keyWidth="20%p" android:keyHeight="10%p" />
+        <Key android:codes="42"    android:keyLabel="3" android:keyWidth="20%p" android:keyHeight="10%p" />
+        <Key android:codes="41"    android:keyLabel="4" android:keyWidth="20%p" android:keyHeight="10%p" />
+        <Key android:codes="45"    android:keyLabel="E" android:popupKeyboard="@xml/popup" android:popupCharacters="eE" android:keyWidth="20%p" android:keyHeight="10%p"/>
+    </Row>
+    <Row>
+        <Key android:codes="01"    android:keyIcon="@drawable/zeeero"  android:keyEdgeFlags="left" android:keyWidth="20%p" android:keyHeight="10%p" />
+        <Key android:codes="13"    android:keyIcon="@drawable/onne" android:keyWidth="20%p" android:keyHeight="10%p" />
+        <Key android:codes="0D"    android:keyIcon="@drawable/oooone" android:keyWidth="20%p" android:keyHeight="10%p" />
+        <Key android:codes="0E"    android:keyLabel="4" android:keyWidth="20%p" android:keyHeight="10%p" />
+        <Key android:codes="11"    android:keyLabel="E" android:popupKeyboard="@xml/popup" android:popupCharacters="eE" android:keyWidth="20%p" android:keyHeight="10%p"/>
+    </Row>
+</Keyboard>

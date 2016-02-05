@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="15%p"
+    android:verticalGap="1%p"
+    android:horizontalGap="1%p">
+    
+    
+    <Row>
+        <Key android:codes="940049"  android:keyWidth="2%p"   android:keyIcon="@drawable/left_previous"         android:keyEdgeFlags="left" />  
+        <Key android:codes="61863"   android:keyWidth="28%p"   android:keyIcon="@drawable/home_sharab" android:iconPreview="@drawable/home_sharab_p" />
+        <Key android:codes="61864"   android:keyWidth="28%p"   android:keyIcon="@drawable/home_sharet_kaset" android:iconPreview="@drawable/home_sheret_kaset_p" />
+        <Key android:codes="61865"   android:keyWidth="28%p"   android:keyIcon="@drawable/home_shamsya" android:iconPreview="@drawable/home_shamseya_p" />
+        <Key android:codes="920049"  android:keyWidth="2%p"   android:keyIcon="@drawable/right_next"            android:keyEdgeFlags="right"  /> 
+    </Row>
+    <Row>
+        <Key android:codes="940049"  android:keyWidth="2%p"   android:keyIcon="@drawable/left_previous"         android:keyEdgeFlags="left" />  
+        <Key android:codes="61866"   android:keyWidth="28%p"  android:keyIcon="@drawable/home_tawlit_makwa" android:iconPreview="@drawable/home_tawelet_mekwah_p"  />
+        <Key android:codes="61867"   android:keyWidth="28%p"  android:keyIcon="@drawable/home_table" android:iconPreview="@drawable/home_tawela_p" />
+        <Key android:codes="61868"   android:keyWidth="28%p"  android:keyIcon="@drawable/home_dish" android:iconPreview="@drawable/home_tabaa_p" />
+        <Key android:codes="920049"  android:keyWidth="2%p"   android:keyIcon="@drawable/right_next"            android:keyEdgeFlags="right"  /> 
+    </Row>
+     <Row>
+        <Key android:codes="940049"  android:keyWidth="2%p"   android:keyIcon="@drawable/left_previous"         android:keyEdgeFlags="left" />  
+        <Key android:codes="61869"   android:keyWidth="28%p"   android:keyIcon="@drawable/home_perfume" android:iconPreview="@drawable/home_etr_p"  />
+        <Key android:codes="61870"   android:keyWidth="28%p"   android:keyIcon="@drawable/home_okda" android:iconPreview="@drawable/home_oqdah_p" />
+        <Key android:codes="61871"   android:keyWidth="28%p"   android:keyIcon="@drawable/home_ghas_tabaiee" android:iconPreview="@drawable/home_ghas_tabeey_p" />
+        <Key android:codes="920049"  android:keyWidth="2%p"   android:keyIcon="@drawable/right_next"            android:keyEdgeFlags="right"  /> 
+    </Row>
+    
+    
+    
+    
+    </Keyboard>

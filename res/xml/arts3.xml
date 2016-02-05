@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="15%p"
+    android:verticalGap="1%p"
+    >
+   
+   <Row>
+        <Key android:codes="940010"  android:keyWidth="2%p"  android:horizontalGap="1%p"  android:keyIcon="@drawable/left_previous"         android:keyEdgeFlags="left" /> 
+        <Key android:codes="61561"  android:keyWidth="28%p" android:horizontalGap="1%p"   android:keyIcon="@drawable/arts_maglit_elshbab"          android:iconPreview="@drawable/arts_maglet_elshabab_p" />
+        <Key android:codes="61562"  android:keyWidth="28%p" android:horizontalGap="1%p"   android:keyIcon="@drawable/arts_mahmood_yassin"          android:iconPreview="@drawable/arts_mahmood_yassin_p" />
+        <Key android:codes="61563"  android:keyWidth="28%p" android:horizontalGap="1%p"   android:keyIcon="@drawable/arts_masssrah"                android:iconPreview="@drawable/arts_masssrah_p" />
+        <Key android:codes="920010"  android:keyWidth="2%p"  android:horizontalGap="30%p"  android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+    </Row>
+    <Row>
+        <Key android:codes="940010"  android:keyWidth="2%p"  android:horizontalGap="1%p"  android:keyIcon="@drawable/left_previous"         android:keyEdgeFlags="left" /> 
+        <Key android:codes="61564"   android:keyWidth="28%p" android:horizontalGap="1%p"  android:keyIcon="@drawable/arts_notah_mosikih"           android:iconPreview="@drawable/arts_notah_mosikih_p"      />
+        <Key android:codes="61565"   android:keyWidth="28%p" android:horizontalGap="1%p"  android:keyIcon="@drawable/arts_noor_elshrif"            android:iconPreview="@drawable/arts_noor_elshrif_p"         />
+        <Key android:codes="920010"  android:keyWidth="2%p"  android:horizontalGap="30%p"  android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+    </Row>
+    
+    
+
+</Keyboard>

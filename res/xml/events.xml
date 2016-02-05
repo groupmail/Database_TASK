@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="15%p"
+    android:verticalGap="1%p"
+    android:horizontalGap="1%p">
+
+    <Row>
+        <Key android:codes="940016"  android:keyWidth="2%p"    android:keyIcon="@drawable/left_previous"          android:keyEdgeFlags="left" /> 
+        <Key android:codes="61728"   android:keyWidth="28%p"   android:keyIcon="@drawable/engagement"                      android:iconPreview="@drawable/events_khtoba_p" />
+        <Key android:codes="61729"   android:keyWidth="28%p"   android:keyIcon="@drawable/events_eid_elhoob"               android:iconPreview="@drawable/events_eid_elhob_p" />
+        <Key android:codes="61730"   android:keyWidth="28%p"   android:keyIcon="@drawable/events_wedding"                  android:iconPreview="@drawable/events_wedding_p" />
+        <Key android:codes="920016"  android:keyWidth="2%p"    android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+    </Row>  
+    <Row>
+        <Key android:codes="940016"  android:keyWidth="2%p"    android:keyIcon="@drawable/left_previous"          android:keyEdgeFlags="left" /> 
+        <Key android:codes="61731"   android:keyWidth="28%p"   android:keyIcon="@drawable/events_mariage"                  android:iconPreview="@drawable/events_mariage_p" />
+        <Key android:codes="61732"   android:keyWidth="28%p"   android:keyIcon="@drawable/events_elsboooaa"                android:iconPreview="@drawable/events_sboaa_p"  />
+        <Key android:codes="61733"   android:keyWidth="28%p"   android:keyIcon="@drawable/events_elfathah"                 android:iconPreview="@drawable/events_elfatha_p" />
+        <Key android:codes="920016"  android:keyWidth="2%p"    android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+    </Row>
+    <Row>
+         <Key android:codes="940016"  android:keyWidth="2%p"    android:keyIcon="@drawable/left_previous"          android:keyEdgeFlags="left" /> 
+         <Key android:codes="61734"  android:keyWidth="28%p"   android:keyIcon="@drawable/events_elmawled_elnabwi"         android:iconPreview="@drawable/events_elmoled_elnbawi_p" />
+         <Key android:codes="61735"  android:keyWidth="28%p"   android:keyIcon="@drawable/events_raas_elsana"              android:iconPreview="@drawable/events_ras_elsana_p" />
+         <Key android:codes="61736"  android:keyWidth="28%p"   android:keyIcon="@drawable/events_sham_elnaseem"            android:iconPreview="@drawable/events_sham_elnsem_p"  />
+         <Key android:codes="920016"  android:keyWidth="2%p"    android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+    </Row>   
+   
+  
+    
+  
+</Keyboard>    

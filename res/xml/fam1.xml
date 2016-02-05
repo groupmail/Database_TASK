@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="15%p"
+    android:verticalGap="1%p"
+    android:horizontalGap="1%p">
+    
+   
+     <Row>
+        <Key android:codes="940002"      android:keyWidth="2%p"                   android:keyIcon="@drawable/left_previous"          android:keyEdgeFlags="left" /> 
+        <Key android:codes="61490"      android:keyWidth="28%p"               android:keyIcon="@drawable/family_grandmother"    android:iconPreview="@drawable/family_grandmother_p"  />
+        <Key android:codes="61491"      android:keyWidth="28%p"               android:keyIcon="@drawable/family_ebn_elaam"      android:iconPreview="@drawable/family_ebn_elaam_p"       />
+        <Key android:codes="61492"      android:keyWidth="28%p"               android:keyIcon="@drawable/family_ebn_elaamah"    android:iconPreview="@drawable/family_ebn_elaamah_p"      />
+        <Key android:codes="920002"      android:keyWidth="2%p"                   android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+    </Row>
+    
+    <Row>
+        <Key android:codes="940002"      android:keyWidth="2%p"                   android:keyIcon="@drawable/left_previous"          android:keyEdgeFlags="left" /> 
+        <Key android:codes="61493"       android:keyWidth="28%p"              android:keyIcon="@drawable/family_ebn_elakh"      android:iconPreview="@drawable/family_ebn_elakh_p"  />
+        <Key android:codes="61494"       android:keyWidth="28%p"              android:keyIcon="@drawable/family_ebn_elokht"     android:iconPreview="@drawable/family_ebn_elokht_p"  />
+        <Key android:codes="61495"       android:keyWidth="28%p"              android:keyIcon="@drawable/family_ebn_elkhal"     android:iconPreview="@drawable/family_ebn_elkhal_p"    />
+        <Key android:codes="920002"      android:keyWidth="2%p"                   android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+    </Row>  
+    
+    <Row>
+        <Key android:codes="940002"      android:keyWidth="2%p"                   android:keyIcon="@drawable/left_previous"          android:keyEdgeFlags="left" /> 
+        <Key android:codes="61496"       android:keyWidth="28%p"              android:keyIcon="@drawable/family_ebn_elkhalah"   android:iconPreview="@drawable/family_ebn_elkhalah_p"  />
+        <Key android:codes="61497"       android:keyWidth="28%p"              android:keyIcon="@drawable/family_family"         android:iconPreview="@drawable/family_family_p"   />
+        <Key android:codes="61498"       android:keyWidth="28%p"              android:keyIcon="@drawable/family_birth"          android:iconPreview="@drawable/family_birth_p" />
+        <Key android:codes="920002"      android:keyWidth="2%p"                   android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+    </Row> 
+    
+   
+    
+    
+    </Keyboard>

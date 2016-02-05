@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:keyHeight="10%p">
+    
+    <Row>
+        <Key android:codes="110002"    android:keyIcon="@drawable/left"     android:keyWidth="10%p" android:keyHeight="10%p" />
+        
+        <Key android:codes="100006"    android:keyIcon="@drawable/directions"  android:keyWidth="20%p" android:keyHeight="10%p" android:iconPreview="@drawable/popup_directions"/>
+        <Key android:codes="1000004"   android:keyIcon="@drawable/arts"     android:keyWidth="20%p" android:keyHeight="10%p"  android:iconPreview="@drawable/popup_music" />
+        <Key android:codes="100008"    android:keyIcon="@drawable/colors"  android:keyWidth="20%p" android:iconPreview="@drawable/popup_colors"/>
+        <Key android:codes="100009"    android:keyIcon="@drawable/eventscat"  android:keyWidth="20%p" android:keyHeight="10%p" android:iconPreview="@drawable/popup_event"/>
+        
+       
+        <Key android:codes="220002"    android:keyIcon="@drawable/right"     android:keyWidth="10%p" android:keyHeight="10%p" />  
+     	
+        
+    
+    
+    </Row>
+</Keyboard>

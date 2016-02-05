@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="15%p"
+    android:verticalGap="1%p"
+    android:horizontalGap="1%p">
+    
+     <Row> 
+       <Key android:codes="940015" android:keyWidth="2%p"  android:keyIcon="@drawable/left_previous"          android:keyEdgeFlags="left" /> 
+       <Key android:codes="61585"   android:keyWidth="28%p"  android:keyIcon="@drawable/directions_above" android:iconPreview="@drawable/directions_above_p" />
+       <Key android:codes="61586"   android:keyWidth="28%p"  android:keyIcon="@drawable/directions_before" android:iconPreview="@drawable/directions_before_p"  />
+       <Key android:codes="61587"   android:keyWidth="28%p"  android:keyIcon="@drawable/directions_near" android:iconPreview="@drawable/directions_next_p" />
+       <Key android:codes="920015" android:keyWidth="2%p"   android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+    </Row>   
+    <Row>
+        <Key android:codes="940015" android:keyWidth="2%p"  android:keyIcon="@drawable/left_previous"          android:keyEdgeFlags="left" /> 
+        <Key android:codes="61588"  android:keyWidth="28%p"  android:keyIcon="@drawable/directions_low" android:iconPreview="@drawable/directions_low_p"  />
+        <Key android:codes="61589"  android:keyWidth="28%p"  android:keyIcon="@drawable/directions_here" android:iconPreview="@drawable/directions_here_p" />
+        <Key android:codes="61590"  android:keyWidth="28%p"  android:keyIcon="@drawable/directions_there" android:iconPreview="@drawable/directions_there_p" />
+        <Key android:codes="920015" android:keyWidth="2%p"   android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+    </Row>  
+    <Row>
+       <Key android:codes="940015" android:keyWidth="2%p"  android:keyIcon="@drawable/left_previous"          android:keyEdgeFlags="left" /> 
+        <Key android:codes="61591"   android:keyWidth="28%p"   android:keyIcon="@drawable/directions_middle"  android:iconPreview="@drawable/directions_middle_p" />
+        <Key android:codes="61592"   android:keyWidth="28%p"   android:keyIcon="@drawable/directions_left"    android:iconPreview="@drawable/directions_left_p" />
+        <Key android:codes="61593"   android:keyWidth="28%p"   android:keyIcon="@drawable/right"              android:iconPreview="@drawable/directions_right_p" />
+        <Key android:codes="920015" android:keyWidth="2%p"   android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+    </Row>
+          
+    
+    </Keyboard>

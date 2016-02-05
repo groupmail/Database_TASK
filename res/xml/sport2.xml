@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="15%p"
+    android:verticalGap="1%p"
+    android:horizontalGap="1%p">
+    
+    
+    <Row> 
+        <Key android:codes="940030"  android:keyWidth="2%p"   android:keyIcon="@drawable/left_previous"          android:keyEdgeFlags="left" /> 
+        <Key android:codes="61772"  android:keyWidth="28%p"  android:keyIcon="@drawable/sports_elmosaraa_elromanya" android:iconPreview="@drawable/sports_mosaraa_p" />
+        <Key android:codes="61773"  android:keyWidth="28%p"  android:keyIcon="@drawable/sports_elmasri_elborsaadii" android:iconPreview="@drawable/sports_el_masry_el_borsaiedy_p" />
+        <Key android:codes="61774"  android:keyWidth="28%p"  android:keyIcon="@drawable/sports_elmakawlon_elarab"   android:iconPreview="@drawable/sports_el_mokawelon_el_arab_p"  />
+        <Key android:codes="920030" android:keyWidth="2%p"   android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+   </Row>
+   
+   <Row> 
+        <Key android:codes="940030"  android:keyWidth="2%p"   android:keyIcon="@drawable/left_previous"          android:keyEdgeFlags="left" /> 
+        <Key android:codes="61775"   android:keyWidth="28%p"  android:keyIcon="@drawable/sports_elmolakma" android:iconPreview="@drawable/sports_molakma_p" />
+        <Key android:codes="61776"   android:keyWidth="28%p"  android:keyIcon="@drawable/sports_elmansoraa" android:iconPreview="@drawable/sports_elmansora_p" />
+        <Key android:codes="61777"   android:keyWidth="28%p"  android:keyIcon="@drawable/sports_anbii" android:iconPreview="@drawable/sports_enby_p" />
+        <Key android:codes="920030" android:keyWidth="2%p"   android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+   </Row>
+   
+   <Row> 
+        <Key android:codes="940030"  android:keyWidth="2%p"   android:keyIcon="@drawable/left_previous"          android:keyEdgeFlags="left" /> 
+        <Key android:codes="61778"  android:keyWidth="28%p"   android:keyIcon="@drawable/sports_anzar" android:iconPreview="@drawable/sports_enzar_p" />
+        <Key android:codes="61779"  android:keyWidth="28%p"   android:keyIcon="@drawable/sports_bylyah" android:iconPreview="@drawable/sports_beleh_p"  />
+        <Key android:codes="61780"  android:keyWidth="28%p"   android:keyIcon="@drawable/sports_tasall" android:iconPreview="@drawable/sports_enby_p"  />
+        <Key android:codes="920030" android:keyWidth="2%p"   android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+   </Row>
+   
+   
+    
+    
+    
+    </Keyboard>

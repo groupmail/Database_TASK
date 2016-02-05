@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="15%p"
+    android:verticalGap="1%p"
+    android:horizontalGap="1%p">
+    
+    
+    
+    
+     <Row>
+       <Key android:codes="940021" android:keyWidth="2%p"     android:keyIcon="@drawable/left_previous"          android:keyEdgeFlags="left" /> 
+        <Key android:codes="61710"  android:keyWidth="28%p"    android:keyIcon="@drawable/jobs_sbaak"               android:iconPreview="@drawable/jobs_sbaak_p"  />
+        <Key android:codes="61711"  android:keyWidth="28%p"    android:keyIcon="@drawable/jobs_shehadit_melad"      android:iconPreview="@drawable/jobs_shehadit_melad_p" />
+        <Key android:codes="61712"  android:keyWidth="28%p"    android:keyIcon="@drawable/jobs_student"             android:iconPreview="@drawable/jobs_student_p" />
+        <Key android:codes="920021" android:keyWidth="2%p"     android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+    </Row>	
+    <Row>
+        <Key android:codes="940021" android:keyWidth="2%p"     android:keyIcon="@drawable/left_previous"          android:keyEdgeFlags="left" /> 
+        <Key android:codes="61713"  android:keyWidth="28%p"    android:keyIcon="@drawable/jobs_contract"            android:iconPreview="@drawable/jobs_contract_p"    />  
+        <Key android:codes="61714"  android:keyWidth="28%p"    android:keyIcon="@drawable/jobs_job"                 android:iconPreview="@drawable/jobs_job_p" />
+        <Key android:codes="61715"  android:keyWidth="28%p"    android:keyIcon="@drawable/jobs_fraash"              android:iconPreview="@drawable/jobs_fraash_p" />
+        <Key android:codes="920021" android:keyWidth="2%p"     android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+        
+    </Row>
+    <Row>
+        <Key android:codes="940021" android:keyWidth="2%p"     android:keyIcon="@drawable/left_previous"          android:keyEdgeFlags="left" /> 
+        <Key android:codes="61716"  android:keyWidth="28%p"    android:keyIcon="@drawable/jobs_falaah"              android:iconPreview="@drawable/jobs_falaah_p"    />
+        <Key android:codes="61717"  android:keyWidth="28%p"    android:keyIcon="@drawable/jobs_fanee"               android:iconPreview="@drawable/jobs_fanee_p" />
+        <Key android:codes="61718"  android:keyWidth="28%p"    android:keyIcon="@drawable/jobs_kemyaai"             android:iconPreview="@drawable/jobs_kemyaai_p" />
+       <Key android:codes="920021" android:keyWidth="2%p"     android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+    
+    </Row>
+   
+    
+    
+    
+    </Keyboard>

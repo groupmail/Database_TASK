@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="15%p"
+    android:verticalGap="1%p"
+    android:horizontalGap="1%p">
+    
+    
+     <Row> 
+        <Key android:codes="940031"  android:keyWidth="2%p"     android:keyIcon="@drawable/left_previous"          android:keyEdgeFlags="left" /> 
+        <Key android:codes="61781"  android:keyWidth="28%p"  android:keyIcon="@drawable/sports_tennis_elardia" android:iconPreview="@drawable/sports_tennis_elardia_p"/>
+        <Key android:codes="61782"  android:keyWidth="28%p"  android:keyIcon="@drawable/sports_ping_pong" android:iconPreview="@drawable/sports_tennis_tawla_p"  />
+        <Key android:codes="61783"  android:keyWidth="28%p"  android:keyIcon="@drawable/sports_hakam" android:iconPreview="@drawable/sports_hakam_p"   />
+        <Key android:codes="920031" android:keyWidth="2%p"     android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+   </Row>
+   
+   <Row>
+        <Key android:codes="940031"  android:keyWidth="2%p"     android:keyIcon="@drawable/left_previous"          android:keyEdgeFlags="left" /> 
+        <Key android:codes="61784"   android:keyWidth="28%p"    android:keyIcon="@drawable/sports_rafaa_askal" android:iconPreview="@drawable/sports_rafaa_askal_p" />
+        <Key android:codes="61785"   android:keyWidth="28%p"    android:keyIcon="@drawable/sports_darbit_gazaaa" android:iconPreview="@drawable/sports_darbet_gazaa_p" />
+        <Key android:codes="61786"   android:keyWidth="28%p"    android:keyIcon="@drawable/sports_tarrd" android:iconPreview="@drawable/sports_tard_p"  />
+        <Key android:codes="920031" android:keyWidth="2%p"     android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+   </Row>
+   
+   
+   <Row>
+        <Key android:codes="940031"  android:keyWidth="2%p"     android:keyIcon="@drawable/left_previous"          android:keyEdgeFlags="left" /> 
+        <Key android:codes="61787"  android:keyWidth="28%p"   android:keyIcon="@drawable/sports_faool" android:iconPreview="@drawable/sports_fawel_p" />
+        <Key android:codes="61788"  android:keyWidth="28%p"   android:keyIcon="@drawable/sports_red_card" android:iconPreview="@drawable/sports_kart_ahmar_p" />
+        <Key android:codes="61789"  android:keyWidth="28%p"   android:keyIcon="@drawable/sports_yellow_card" android:iconPreview="@drawable/sports_kart_asfar_p" />
+        <Key android:codes="920031" android:keyWidth="2%p"     android:keyIcon="@drawable/right_next"             android:keyEdgeFlags="right"  /> 
+   </Row>
+    
+    
+    
+    </Keyboard>

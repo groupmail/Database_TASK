@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+    <item>
+        <shape android:shape="rectangle" >
+            <corners android:radius="4dp" />
+
+            <stroke
+                android:width="2dp"
+                android:color="#FFFFFF" />
+
+            <solid  
+                android:color="@color/keycat" />
+
+            <padding/>
+             
+        </shape>
+    </item>
+    <item android:drawable="@drawable/clear_button"/>
+
+</layer-list>

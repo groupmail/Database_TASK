@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.font.ActivitySetting" >
+
+    <TextView
+        android:id="@+id/textView1FontSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Font Size"
+        android:textColor="#996699"
+        android:textSize="30sp" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1FontSize"
+        android:max="150" />
+
+    <TextView
+        android:id="@+id/textView2Speed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBar1"
+        android:layout_marginTop="10dp"
+        android:text="Sound Speed"
+        android:textColor="#996699"
+        android:textSize="30sp" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2Speed"
+        android:max="20" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/purple"
+        android:text="save"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/arabic_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBar2"
+        android:layout_marginTop="36dp"
+        android:background="@color/main"
+        android:text="Arabic Keyboard"
+        android:textColor="#996699"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/sign_language_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/arabic_button"
+        android:layout_marginTop="36dp"
+        android:background="@color/main"
+        android:text="Sign Language Keyboard"
+        android:textColor="#996699"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
